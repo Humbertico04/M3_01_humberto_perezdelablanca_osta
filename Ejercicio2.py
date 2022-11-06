@@ -15,6 +15,8 @@ Implementa el método str y haz que muestre el nombre y la nota del alumno
 Crea algun objeto de la clase Alumno
 Realiza print de esos objetos para visualizar por pantalla la información del st"""
 
+from ast import main
+
 class Alumno:
     """Creamos la clase Alumno que recoge la nota y el nombre del alumno"""
     def __init__(self, nombre, nota):
@@ -44,3 +46,6 @@ Luis.calificacion()
 Sofia = Alumno("Sofia", 5)
 print(Sofia)
 Sofia.calificacion()
+
+if __name__=="__main__":
+    main()

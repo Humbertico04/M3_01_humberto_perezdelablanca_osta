@@ -17,6 +17,8 @@ Realiza print de esos objetos para visualizar por pantalla la información del s
 
 from ast import main
 
+print("Ejercicio 2:\n")
+
 class Alumno:
     """Creamos la clase Alumno que recoge la nota y el nombre del alumno"""
     def __init__(self, nombre, nota):

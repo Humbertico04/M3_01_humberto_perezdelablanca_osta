@@ -9,6 +9,8 @@ Prueba a ejecutar el método calificacion de cada objeto que has creado"""
 
 from ast import main
 
+print("Ejercicio 1:\n")
+
 class Alumno:
     """Creamos la clase Alumno que recoge la nota y el nombre del alumno"""
     def __init__(self, nombre, nota):

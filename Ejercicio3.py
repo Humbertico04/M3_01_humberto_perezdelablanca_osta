@@ -9,6 +9,8 @@ Prueba a mostrar los datos de algun producto y a modificar algun valor, por ejem
 
 from ast import main
 
+print("Ejercicio 3:\n")
+
 class Producto:
     """Creamos la clase producto"""
     def __init__(self, codigo, nombre, precio, tipo):
